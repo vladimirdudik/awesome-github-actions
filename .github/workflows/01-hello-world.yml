@@ -24,4 +24,4 @@ jobs:
           echo "Step 4..."
 
       - name: Say Goodbye
-        run: echo "Goodbye!"
+        run: echo "Say Goodbye!"
