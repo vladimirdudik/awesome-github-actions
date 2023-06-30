@@ -24,7 +24,7 @@ jobs:
           echo "${{steps.abc.outputs.FAV_NUMBER}}"
           echo "${{steps.abc.outputs.FAV_COLOR}}"
     outputs:
-      fav-animal: tiger
+      fav-animal: dog
       fav-number: ${{steps.abc.outputs.FAV_NUMBER}}
   job2:
     runs-on: ubuntu-latest
