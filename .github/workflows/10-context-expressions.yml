@@ -39,10 +39,10 @@ jobs:
         run: echo "Still running..."
       - name: Always
         if: ${{ always() }}
-        run: echo "You will always see this"
+        run: echo "You will always see this."
       - name: Cancelled
         if: ${{ cancelled() }}
-        run: echo "You canceled the workflow"
+        run: echo "You canceled the workflow."
       - name: Failure
         if: ${{ failure() }}
         run: echo "Something went wrong..."
