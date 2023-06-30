@@ -17,7 +17,7 @@ jobs:
 
     strategy:
       matrix:
-        greeting: [Hello, Howdy, Hey]
+        greeting: [Hello_NO_SEC_SETUP, Howdy, Hey]
 
     steps:
       - uses: actions/checkout@v2
